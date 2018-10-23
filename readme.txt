@@ -20,10 +20,10 @@
     「認証情報を作成」-> 「OAuth2.0 クライアントID」->「その他」->「作成」でクライアントIDを作成
     「認証情報」の画面に戻ったら作成したクライアントIDのリストの一番右のアイコン(ダウンロードアイコン)を
     クリックしてjsonを保存する
-    このとき、ファイル名を「gdrivecredentials.json」とし、CurlAndSaveToGoogleDrive-v0.2.pyと同じフォルダに置く
+    このとき、ファイル名を「gdrivecredentials.json」とし、GetAndSaveToGoogleDrive-v0.2.pyと同じフォルダに置く
 
 1)実行
-  $ python3 CurlAndSaveToGoogleDrive-v0.2.py --noauth_local_webserver
+  $ python3 GetAndSaveToGoogleDrive-v0.2.py --noauth_local_webserver
   
 2)認証
   認証されていない場合)
